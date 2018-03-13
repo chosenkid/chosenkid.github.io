@@ -14,16 +14,18 @@
 <meta name="author" content="Mr Liu" />
 
 
-    
-    
 
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="CHOSENKID">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="#第一章 ##第一节 #第二章 ##第一节">
+<meta name="keywords" content="tag1,tag2">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Test">
+<meta property="og:url" content="http://yoursite.com/tet01/index.html">
 <meta property="og:site_name" content="CHOSENKID">
+<meta property="og:description" content="#第一章 ##第一节 #第二章 ##第一节">
+<meta property="og:updated_time" content="2018-03-08T14:57:23.667Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CHOSENKID">
+<meta name="twitter:title" content="Test">
+<meta name="twitter:description" content="#第一章 ##第一节 #第二章 ##第一节">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -51,13 +53,11 @@
 <link rel="stylesheet" href="/css/style.css">
 
 
-    <style> .article { opacity: 0;} </style>
-
 
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>CHOSENKID</title>
+<title>Test | CHOSENKID</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -66,8 +66,8 @@
     var yiliaConfig = {
         fancybox: true,
         animate: true,
-        isHome: true,
-        isPost: false,
+        isHome: false,
+        isPost: true,
         isArchive: false,
         isTag: false,
         isCategory: false,
@@ -185,9 +185,7 @@
     </div>
     <link class="menu-list" tags="Tags" friends="Friends" about="About Me"/>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-tet01" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-tet01" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/tet01/" class="article-date">
@@ -205,12 +203,23 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/tet01/">Test</a>
+    <h1 class="article-title" itemprop="name">
+      Test
     </h1>
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tag1/">tag1</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tag2/">tag2</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -224,23 +233,59 @@
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tag1/">tag1</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tag2/">tag2</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
+  
+    
+
+
   
 </article>
 
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">Contents</strong>
+        
+            
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="Hide"  title="Show or Hide Table of Contents">
+
+    <script>
+        yiliaConfig.toc = ["Hide", "Show", !!"false"];
+    </script>
+
+
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
+            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
+            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"Test　| CHOSENKID　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
 
 
 
@@ -248,9 +293,31 @@
 
 
 
+    
 
-  
-  
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="Back to Homepage"><i class="fa fa-home"></i></a>
+        
+
+        <a title="Mini Archives"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/" title="Back to Homepage"><i class="fa fa-home"></i></a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/tet01/">Test</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
